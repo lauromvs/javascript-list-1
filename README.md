@@ -7,7 +7,7 @@ Takes two inputs values as operators and writes the sum, multiplication, divisio
 <img src="assets/ex_1.png">
 
 ## Exercise 2
-Take four or five input values and average the scores based on the values provided.
+Takes four or five input values and averages the scores based on the values provided.
 
 <img src="assets/ex_2.png">
 
@@ -21,12 +21,12 @@ Calculates a salary readjustment based on the rule:
 <img src="assets/ex_3.png">
 
 ## Exercise 4
-Write the date with month in full.
+Writes the date with month in full.
 
 <img src="assets/ex_4.png">
 
 ## Exercise 5
-Receive five entries containing a person's gender and height. After reading the five entries, it shows how many were men, how many were women and who was the tallest.
+Receives five entries containing a person's gender and height. After reading the five entries, it shows how many were men, how many were women and who was the tallest.
 
 <img src="assets/ex_5.png">
 
