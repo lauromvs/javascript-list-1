@@ -25,15 +25,19 @@ function countNewPerson() {
         }
 
         countTotal += 1;
-        let elementP = document.createElement('li');
+        let elementP = document.createElement('span');
         elementP.innerHTML = `${sex}, ${height}m`
-        document.getElementById('inputs').append(elementP);
+        document.getElementById('output').append(elementP);
         console.log(height, sex);
         console.log(countTotal);
 
         if (countTotal == 5) {
-            let elementP = document.createElement('p');
-            elementP.innerHTML = `Contagem esgotada. Homens: ${countMale} Mulheres:${countFemale}. Mais Alto:${tallestSex}, ${tallest}m`
+            let elementP;
+            elementP = document.createElement('p');
+            elementP.innerHTML = `CONTAGEM ESGOTADA. HOMENS: ${countMale} MULHERES:${countFemale}.`
+            document.getElementById('main').append(elementP);
+            elementP = document.createElement('p');
+            elementP.innerHTML = `MAIS ALTO: ${tallestSex}, ${tallest}m`
             document.getElementById('main').append(elementP);
         }
 

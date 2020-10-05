@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+button {
+    height: 200px;
+    width: 60%;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: rgb(141, 50, 50);
+    border: 0;
+    outline: 0;
+    color:#fff
+}
+button:hover{
+    background-color: rgb(110, 30, 30);
+}

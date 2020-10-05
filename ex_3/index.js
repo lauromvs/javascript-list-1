@@ -4,10 +4,10 @@ function readjustSalary() {
     const increaseValue = salaryNow * increasePercent / 100;
     const salaryNew = parseFloat(salaryNow) + increaseValue;
 
-    document.getElementById('salaryOld').value = `R$ ${salaryNow}`;
-    document.getElementById('increasePercent').value = `${increasePercent}%`;
-    document.getElementById('increaseValue').value = `R$ ${increaseValue.toFixed(2)}`;
-    document.getElementById('salaryNew').value = `R$ ${salaryNew.toFixed(2)}`;
+    document.getElementById('salaryOld').innerHTML = ` R$ ${salaryNow}`;
+    document.getElementById('increasePercent').innerHTML = ` ${increasePercent}%`;
+    document.getElementById('increaseValue').innerHTML = ` R$ ${increaseValue.toFixed(2)}`;
+    document.getElementById('salaryNew').innerHTML = ` R$ ${salaryNew.toFixed(2)}`;
     console.log('henlo', salaryNow)
 }
 

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    min-width: 350px;
+}
+h1{
+    font-size: 32px;
+}
+input {
+    margin: 10px 0;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #666;
+}
+input[type=button] {
+    outline: 0;
+    height: 40px;
+    background-color: #eeb524;
+}
+input[type=button]:hover {
+    background-color: #ca9a20;
+}
+label{
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #d2d2d2;
+    opacity: 1; /* Firefox */
+  }
