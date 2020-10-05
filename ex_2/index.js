@@ -6,8 +6,12 @@ function getMedia() {
     const n4 = (document.getElementById('n4').value);
     const n5 = (document.getElementById('n5').value);
 
-    const media = calcAvarege(n1, n2, n3, n4, n5);
+    if (!(n1 && n2 && n3 && n4)) {
+        alert('Digite as 4 primeiras notas.');
+        return false;
+    }
 
+    const media = calcAvarege(n1, n2, n3, n4, n5);
     document.getElementById('media').value = media;
 
 }
